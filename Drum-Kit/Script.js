@@ -1,18 +1,27 @@
-var numberOfButtons = document.querySelectorAll(".button").length;
+var numberOfButtons = $(".button").length;
 
-for (var j = 0; j < numberOfButtons; j++) {
+// for (var j = 0; j < numberOfButtons; j++) {
 
-document.querySelectorAll(".button")[j]
-	.addEventListener("click", function() {
-	var buttonStyle = this.innerHTML;
-	sound(buttonStyle);
-	animation(buttonStyle);
-});
-}
+// document.querySelectorAll(".button")[j]
+// 	.addEventListener("click", function() {
+// 	var buttonStyle = this.innerHTML;
+// 	sound(buttonStyle);
+// 	animation(buttonStyle);
+// });
+// }
 
-document.addEventListener("keypress", function(event) {
-    sound(event.key);
-    animation(event.key);
+$(function(){
+    $(document).keypress(function (e) { 
+        sound(e.key)
+    })
+
+    $("button").click(function(){
+        var buttons = $(this).text()[0]
+        buttons = buttons.toLowerCase()
+        console.log(buttons)
+        sound(buttons)
+    });
+
 });
     
 function sound(key) {
