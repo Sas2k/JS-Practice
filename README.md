@@ -12,3 +12,10 @@ These are the projects I made when I am practising JS
 ### Things Used
 - Vanilla JS
 - Jquery
+
+## Credits
+- Project Ideas
+  - [javascript project of beginners](https://mikkegoes.com/javascript-projects-for-beginners/)
+
+- Code
+  - [Me](https://github.com/sas2k)
