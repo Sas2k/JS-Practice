@@ -7,6 +7,7 @@ My JavaScript Practices
 3. [DrumKit](DrumKit/README.md) -[Web](https://sas2k.github.io/JS-Practice/DrumKit/Index.html) `2022/05/23~24`
 4. [ColorGuessingGame](ColorGuessingGame/README.md) -[Web](https://sas2k.github.io/JS-Practise/ColorGuessingGame/Index.html) `2022/05/25`
 5. [ColorFlipper](ColorFlipper/README.md) -[Web](https://sas2k.github.io/JS-Practise/ColorFlipper/Index.html) `2022/05/27`
+6. [Calculator](Calculator/README.md) -[Web](https://sas2k.github.io/JS-Practise/Calculator/Index.html) `2022/06/02`
 
 ### About
 These are the projects I made when I am practising JS

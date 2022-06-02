@@ -1,0 +1,42 @@
+* {
+    font-family: monospace;
+    margin: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#calculate {
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5%;
+    background-color: beige;
+}
+
+#calculate:hover {
+    background-color: coral;
+}
+
+#Num1 {
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5%;
+}
+
+#Num2 {
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5%;
+}
+
+#operation {
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5%;
+}
