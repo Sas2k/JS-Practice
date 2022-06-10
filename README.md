@@ -2,7 +2,7 @@
 My JavaScript Practices
 
 ## Home
-[Home Page](https://sas2k.github.io/JS-Practice/)
+[Home Page](https://sas2k.github.io/JS-Practice/Index.html)
 
 ## Table Of Projects 
 1. [Clock](1-Clock/README.md) -[Web](https://sas2k.github.io/JS-Practice/1-Clock/Index.html) `2022/05/23`
