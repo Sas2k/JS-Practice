@@ -17,7 +17,7 @@ $(function(){
         time = round(time, 2)
         console.log(time)
         $("#clock").text(time);
-        await sleep(0.5)
+        await sleep(10)
     }
   });
   $("#stop").click(async function(){

@@ -1,0 +1,53 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+}
+
+body {
+    margin: 0;
+    background-color: lightcyan;
+}
+
+h3,
+p {
+    font-style: oblique;
+}
+
+.links {
+    display: flexbox;
+    justify-content: center;
+    background-color: rgb(46, 89, 103);
+    padding: 5%;
+}
+
+.links a{
+    color: rgb(99, 194, 197);
+}
+
+.links a:hover{
+    color: cadetblue;
+}
+
+.links p{
+    color: yellow;
+}
+
+.header{
+    background-color: deepskyblue;
+    display: flex;
+    overflow: hidden;
+}
+
+.header ul{
+    padding: 0;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.content{
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
